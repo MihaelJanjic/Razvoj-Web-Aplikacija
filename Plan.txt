@@ -1,0 +1,31 @@
+Napraviti aplikaciju koja prati stanje i količinu različitih stvari u skladištu. Ova aplikacija je namijenjena za rad u velikim firmama i tvornicama. Osnovne funkcije radnika:
+
+Radna mjesta
+- Pregled materijala
+- Slanje zahtjeva za dovoz određene količine određenih dijelova
+- Pregled povijesti zahtijeva
+- Slanje poruka/izvješća menadžeru
+
+Menadžer
+- Prihvaćanje zahtjeva
+- Dodavanje/Sklanjanje novih materijala
+- Mijenjanje količine materijala na stanju
+- Pregled i slanje izvješća i poruka zaposlenika i admina
+
+Admin
+- Dodavanje radnih mjesta, menadžera i admina
+- Komunikacija sa menadžerima
+- Dodavanje novih skladišta
+
+
+
+Osnovne stavke aplikacije:
+- Profili/računi radnika
+- Popis skladišta
+- Popis predmeta na stanju
+- Zahtjevi
+- Izvješća
+- Dodavanje korisnika i skladišta
+
+
+*Radna mjesta (npr. packaging) umjesto imena zaposlenika kako bi se pojednostavila aplikacija; Menadžer bi mogao upravljati radnim mjestima zaposlenika. Ovako svako radno mjesto ima računalo koje koristi bilo koji broj zaposlenika, te menadžer zna gdje se ti zaposlenici nalaze.
