@@ -1,31 +1,33 @@
-Napraviti aplikaciju koja prati stanje i količinu različitih stvari u skladištu. Ova aplikacija je namijenjena za rad u velikim firmama i tvornicama. Osnovne funkcije radnika:
+Napraviti aplikaciju koja omogućuje dodjelu i prati izvršenje zadataka. Primjer bi bila programerska firma gdje bi admini dodjeljivali zadatke (npr. liste bugova i liste novih funkcija).
 
-Radna mjesta
-- Pregled materijala
-- Slanje zahtjeva za dovoz određene količine određenih dijelova
-- Pregled povijesti zahtijeva
-- Slanje poruka/izvješća menadžeru
-
-Menadžer
-- Prihvaćanje zahtjeva
-- Dodavanje/Sklanjanje novih materijala
-- Mijenjanje količine materijala na stanju
-- Pregled i slanje izvješća i poruka zaposlenika i admina
+Zaposlenici
+- Pregled zadataka i njihovih prioriteta
+- Prihvaćanje zadataka
+- Dodavanje komentara
+- Pregled povijesti
+- Slanje poruka adminu
 
 Admin
-- Dodavanje radnih mjesta, menadžera i admina
-- Komunikacija sa menadžerima
-- Dodavanje novih skladišta
+- Kreiranje zadataka i prioriteta
+- Pregled statusa zadataka
+- Slanje obavijesti radnicima
+- Pravljenje izvještaja
+- Komunikacija sa zaposlenicima i super adminom
 
+Super Admin
+- Dodavanje korisnika
+- Komunikacija sa adminima
+- Dodavanje kategorija zadataka
+- Pregled izvještaja
 
 
 Osnovne stavke aplikacije:
 - Profili/računi radnika
-- Popis skladišta
-- Popis predmeta na stanju
-- Zahtjevi
+- Popis i dodavanje zadataka
+- Povijest
+- Poruke
 - Izvješća
-- Dodavanje korisnika i skladišta
+- Dodavanje korisnika
+- Dodavanje kategorija
 
-
-*Radna mjesta (npr. packaging) umjesto imena zaposlenika kako bi se pojednostavila aplikacija; Menadžer bi mogao upravljati radnim mjestima zaposlenika. Ovako svako radno mjesto ima računalo koje koristi bilo koji broj zaposlenika, te menadžer zna gdje se ti zaposlenici nalaze.
+Npr. Korisnik 1 prihvati zadatak za popravljanje određenog buga. On ga radi 4 sata, te nakon što pusha update, rješava zadatak i prelazi na drugi. To osigurava da više radnika ne radi isti zadatak, te da se lagano prikaže lista zadataka koju treba odraditi.
