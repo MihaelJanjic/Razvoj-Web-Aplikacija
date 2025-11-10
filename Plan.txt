@@ -1,33 +1,24 @@
-Napraviti aplikaciju koja omogućuje dodjelu i prati izvršenje zadataka. Primjer bi bila programerska firma gdje bi admini dodjeljivali zadatke (npr. liste bugova i liste novih funkcija).
+Aplikacija koja omogućuje korisnicima prijavljivanje bugova, prikazuje bugove adminima, te ih oni popravljaju.
 
-Zaposlenici
-- Pregled zadataka i njihovih prioriteta
-- Prihvaćanje zadataka
+Korisnici
+- Pregled bugova
+- Prijava bugova
 - Dodavanje komentara
-- Pregled povijesti
-- Slanje poruka adminu
+- Pregled svojih prijava
 
 Admin
-- Kreiranje zadataka i prioriteta
-- Pregled statusa zadataka
-- Slanje obavijesti radnicima
-- Pravljenje izvještaja
-- Komunikacija sa zaposlenicima i super adminom
+- Pregled i odabir buga kojeg planira popraviti
+- Dodavanje komentara
+- Povijest
 
 Super Admin
-- Dodavanje korisnika
-- Komunikacija sa adminima
+- Dodavanje admina
 - Dodavanje kategorija zadataka
-- Pregled izvještaja
 
 
 Osnovne stavke aplikacije:
-- Profili/računi radnika
-- Popis i dodavanje zadataka
+- Profili/računi korisnika
+- Popis i dodavanje bugova
 - Povijest
-- Poruke
-- Izvješća
-- Dodavanje korisnika
+- Dodavanje admina
 - Dodavanje kategorija
-
-Npr. Korisnik 1 prihvati zadatak za popravljanje određenog buga. On ga radi 4 sata, te nakon što pusha update, rješava zadatak i prelazi na drugi. To osigurava da više radnika ne radi isti zadatak, te da se lagano prikaže lista zadataka koju treba odraditi.
